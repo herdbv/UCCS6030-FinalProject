@@ -1,0 +1,5 @@
+prompt1:
+Given this project code, find and document each method's weakest possible precondition as well as post-conditions following the standard Python docstring format. Next, convert the post-conditions to executable format.
+
+prompt2:
+Given this project code, find and document each method's weakest possible precondition as well as postconditions following the standard Python docstring format. Next, convert the postconditions to executable format. For example, the weakest possible precondition in code is one that, when executed, will not throw any in-built exceptions. For example, NaN is not an exception in a Java, so that behavior is acceptable. When creating executable post conditions, use asserts or ifs to make sure that control is directed away from the standard path if need be.\\
